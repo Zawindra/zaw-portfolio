@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main>
+        <section id="navbar">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary row">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./image/logo (1).svg " alt="" id="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3 fw-bolder">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Service</a>
+                            </li>
+                                <a class="nav-link " aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  aria-current="page"href="#">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  aria-current="page"href="#">Expo 2030</a>
+                            </li>
+                            <div class="dropdown">
+                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  EN
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">IDN</a></li>
+                                  <li><a class="dropdown-item" href="#">AR</a></li>
+                                  <li><a class="dropdown-item" href="#">EN</a></li>
+                                </ul>
+                              </div>
+                              <form class="d-flex" role="search">
+                                <button id="contact-us" class="" type="submit">Contact Us</button>
+                            </form>
+                        </ul>
+
+                        
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section id="hero">
+            <div class="row">
+                <div class="col-md-8 align-content-center px-5">
+                    <h1 class="title fw-bolder">We shape the cities of Tomorrow!</h1>
+                    <p id="p-1">
+                        A fresh approach on the dynamics of development: <br> from Real Estate to Investments.
+                    </p>
+                </div>
+
+                <div class="building col-md-4">
+                    <img src="./image/image-of-building-transparent.png" alt="" width="100%">
+                </div>
+            </div>
+        </section>
+        <section class="bigCard container "
+            style="position: relative; top: -100px; height: 900px; background-color: white;">
+            <div class="cards">
+                <div class="card cardOne">
+                    <h2 class="tema">Real Estate <br> Development</h2>
+                    <p class="number">01</p>
+                </div>
+                <div class="card cardTwo">
+                    <h2 class="tema">Design and Construction</h2>
+                    <p class="number">02</p>
+                </div>
+                <div class="card cardThree">
+                    <h2 class="tema">Investment Management</h2>
+                    <p class="number">03</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="services" style="margin-bottom: 50px;">
+                <div class="servicesHeader d-flex align-items-center" style="padding-left: 48px;">
+                    <h2 style="color: rgba(113, 145, 159, 1);">Services</h2>
+                    <div class="line"></div>
+                </div>
+                <br>
+
+                <h3 id="last" style="padding-left: 48px;">We do Development with our clients and <br> partners with the
+                    big A!</h3>
+            </div>
+        </section>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

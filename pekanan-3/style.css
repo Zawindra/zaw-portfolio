@@ -1,0 +1,617 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.uppernav {
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(206, 206, 206, 0.76);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    height: 74px;
+    padding: 12px 64px;
+}
+
+.location ul li:nth-of-type(1) {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.location ul li:nth-of-type(2) {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.location img {
+    width: 11.67px;
+    height: 16.67px;
+    top: 1.67px;
+    left: 4.17px;
+    margin-right: 3px;
+    
+}
+
+.clock ul li:nth-of-type(1) {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.clock ul li:nth-of-type(2) {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.clock img {
+    width: 17.5px;
+    height: 17.5px;
+    top: 1.25px;
+    left: 1.25px;
+    margin-right: 5px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 195px;
+    height: 38px;
+    gap: 8px;
+    justify-content: flex-start;
+    padding-right: 50px;
+    border-right: 1px solid rgba(51, 51, 51, 0.1);
+    white-space: nowrap;
+}
+
+.clock {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.leftsidenav {
+    width: 371px;
+    height: 50px;
+    gap: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.textlocation {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.leftsidenav {
+    display: flex;
+    flex-direction: row;
+}
+
+.tlp {
+    display: flex;
+    color: rgba(71, 98, 255, 1);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.tlp img {
+    width: 20px;
+    height: 20px;
+    padding: 0.65px 0.49px 0.83px 0.59px;
+    margin-right: 10px;
+}
+
+.tlp ul {
+    gap: 4px;
+}
+
+.lowernav {
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.03);
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 61.8px;
+    padding: 18px 64px;
+}
+
+.lowernav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 268px;
+    height: 19px;
+    gap: 46px;
+}
+
+.first h1 {
+    font-family: "Inter";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+    width: 635.1px;
+    height: 150px;
+}
+
+.first h1 span {
+    font-style: italic;
+}
+
+.first p {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(51, 51, 51, 0.8);
+    width: 496px;
+    height: 108px;
+}
+
+.hero button {
+    width: 266px;
+    height: 55px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    gap: 10px;
+    border: none;
+    background: rgba(71, 98, 255, 1);
+    color: white;
+}
+
+.first {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    width: 763.1px;
+    height: 361px;
+    gap: 32px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.second {
+    flex: 1;
+}
+
+.hero img {
+    flex: 1;
+    width: 100%;
+}
+
+.textfirst {
+    width: 635.1px;
+    height: 274px;
+    gap: 16px;
+}
+
+.mainstats div {
+    display: flex;
+    flex-direction: column;
+    width: 224px;
+    height: 233px;
+    gap: 12px;
+}
+
+#hamburgermenu {
+    display: none;
+}
+
+.mainstats div {
+    width: 264px;
+    height: 320px;
+    padding: 20px;
+    border-radius: 9px;
+    gap: 20px;
+    background: rgba(244, 246, 250, 1);
+}
+
+.stats {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 1, 440px;
+    height: 531px;
+    padding: 48px, 32px;
+    gap: 33px;
+}
+
+.mainstats span {
+    font-family: "Inter";
+    font-size: 180px;
+    font-weight: 700;
+    line-height: 198px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    color: rgba(51, 51, 51, 0.1);
+}
+
+.upperservice {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.upperservice p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.service {
+    width: 632px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(51, 51, 51, 1);
+}
+
+.mainstats h2 {
+    width: 208px;
+    height: 29px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: nowrap;
+    color: rgba(51, 51, 51, 1);
+}
+
+.mainstats p {
+    width: 224px;
+    height: 168px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(51, 51, 51, 0.8);
+}
+
+.mainstats {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.mainstats div {
+    position: relative;
+}
+
+.backgroundimage {
+    width: 100%;
+    height: 795.85px;
+    gap: 10px;
+    margin: 64px 0px;
+    background-image: url(image/image-mekanik-truk.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-2 {
+    width: 611px;
+    height: 655.85px;
+}
+
+.card {
+    width: 611px;
+    height: 655.85px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.uppercard {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 611px;
+    height: 168px;
+    padding: 24px;
+    gap: 18px;
+}
+
+.cardupper {
+    display: flex;
+    flex-direction: column;
+}
+
+.locationandclock {
+    padding: 0px 24px;
+    gap: 0px;
+}
+
+.card h3 {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.uppercard .leftsidenav .location {
+    border-right: none;
+}
+
+.teks {
+    width: 400px;
+    height: 64px;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.teks span {
+    color: blue;
+}
+
+.uppercard .leftsidenav {
+    width: 353px;
+    height: 38px;
+    gap: 18px;
+    border-radius: 20px;
+}
+
+.uppercard iframe {
+    border-radius: 20px;
+    gap: 18px;
+    /* margin-left: -20px;
+  margin-top: 10px; */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 450px;
+    width: 100%;
+}
+
+.iframe1 {
+    padding-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+@media (max-width: 640px) {
+    .uppernav {
+        display: none;
+    }
+
+    .lowernav ul {
+        display: none;
+    }
+
+    #hamburgermenu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        padding: 24px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .first {
+        width: 390px;
+        height: auto;
+        gap: 32px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .textfirst h1 {
+        width: 500px;
+    }
+
+    .textfirst p {
+        width: 300px;
+        position: absolute;
+        top: 1000px;
+    }
+
+    .teks {
+        width: 300px;
+    }
+
+    .first button {
+        margin-top: 200px;
+    }
+
+    .mainstats {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .upperservice {
+        gap: 12px;
+    }
+
+    .upperservice h2,
+    p {
+        width: 342px;
+        height: 96px;
+    }
+
+    .backgroundimage {
+        margin-top: 1300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        width: 342px;
+        height: 523.07px;
+        border-radius: 15px;
+        margin-right: 100px;
+    }
+
+    .uppercard {
+        width: 342px;
+        height: 250px;
+        padding: 24px;
+        gap: 18px;
+    }
+
+    .uppercard iframe {
+        width: 100%;
+        height: 273.07px;
+        margin-top: 70px;
+    }
+
+    .locationandclock {
+        position: relative;
+    }
+
+    .leftsidenav {
+        /* height: 88px;
+    gap: 12px; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .leftsidenav {
+        top: 20px;
+    }
+
+    .leftsidenav .clock {
+        position: absolute;
+        top: 45px;
+        left: -40px;
+    }
+
+    .cardupper h3 {
+        width: 210px;
+        height: 96px;
+    }
+
+    .cardupper p {
+        width: 294px;
+        height: 88px;
+    }
+
+    .upperlast {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.last {
+    width: 100%;
+    height: 391px;
+    top: 0;
+    background-color: black;
+    margin-top: -100px;
+}
+
+.upperlast {
+    padding-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.kontak ul li:nth-of-type(3) {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sosialmedia ul li:nth-of-type(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sosialmedia ul li:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.upperlast h3 {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.upperlast div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.socialmedia {
+    width: 143.41px;
+    height: 60.83px;
+    gap: 30px;
+}
